@@ -1,0 +1,29 @@
+@charset "utf-8";
+/**
+ * Style for index.html
+ */
+
+body{background-color:#eee;}
+p{text-indent:2em}
+
+.header {background:transparent url(../images/html.png) repeat-x scroll 0 0}
+.header_i{width: 900px;margin:0 auto;}
+.header .logo{margin: 80px 0 40px;}
+
+
+.content{width:4200px;position:relative;left:0;top:0;background:transparent url(../images/body.png) no-repeat scroll 0 0;min-height:500px;margin-left:20px}
+
+.content .article{float:left;position:relative;min-height:500px;}
+.article img{vertical-align:top;}
+.article_1 {width:1000px}
+.article_1 .sentence_1{position:absolute;top:100px;left:280px}
+.article_1 .sentence_2{position:absolute;top:200px;left:250px}
+.article_1 .heart{position:absolute;top:290px;right:50px}
+.article_2 {width:720px}
+.article_2 .mayday {cursor:pointer}
+.article_3 {width:620px}
+.article_3 .shenzhen {cursor:pointer}
+.article_4 {width:840px}
+.article_4 .wuhan {cursor:pointer}
+.article_5 {width:1000px}
+.article_5 .final {cursor:pointer}
