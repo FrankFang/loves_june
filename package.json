@@ -1,0 +1,12 @@
+{
+  "name": "Frank_loves_June",
+  "devDependencies": {
+    "autoless": "~0.1.4",
+    "coffee-script": "~1.6.3"
+  },
+  "scripts": {
+    "watch-less": "autoless less css",
+    "watch-coffee" : "coffee -w -o js -c coffee/*.coffee",
+    "dev": "npm run watch-less & npm run watch-coffee"
+  }
+}
