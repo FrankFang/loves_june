@@ -1,0 +1,3 @@
+$ ->
+  window.drawHeart('.canvasContainer')
+  return
