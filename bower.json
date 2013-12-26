@@ -1,6 +1,8 @@
 {
   "name": "Frank loves June",
   "devDependencies": {
-    "zeptojs": "~1.1.2"
+    "zeptojs": "~1.1.2",
+    "sidr": "~1.2.1",
+    "requirejs": "~2.1.9"
   }
 }
